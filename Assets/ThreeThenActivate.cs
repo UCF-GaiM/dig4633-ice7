@@ -16,7 +16,7 @@ public class CallCounter : MonoBehaviour
         Debug.Log($"Function called {callCount} time(s).");
 
         // Check if the function has been called 3 times
-        if (callCount >= 3)
+        if (callCount >= 2)
         {
             onThreeCalls.Invoke(); // Call the UnityEvent
             // ResetCounter(); // Reset the counter if needed
